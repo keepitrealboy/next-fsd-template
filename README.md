@@ -4,6 +4,29 @@ This is a simple starter template for quickly bootstrapping a modern **Next.js**
 
 ---
 
+## 🚀 Create a New Project from This Template
+
+You can quickly scaffold a new project based on this template using the following command:
+
+```bash
+npx create-next-app@latest my-app -e https://github.com/keepitrealboy/next-fsd-template
+```
+
+This will:
+
+- Clone this template into the my-app directory
+- Install all dependencies
+- Set up the full FSD-based project structure using App Router, TypeScript, ESLint, Prettier, and Stylelint
+
+📦 After that:
+
+```bash
+cd my-app
+npm run dev
+```
+
+---
+
 ## 📦 Tech Stack
 
 - ✅ **Next.js** with `app/` router
@@ -60,3 +83,4 @@ npm run lint:css    # Stylelint
 ## 🧩 Feature-Sliced Design
 
 This project follows [Feature-Sliced Design](https://feature-sliced.github.io/documentation/) principles for modular, scalable architecture.
+
