@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js App Router + FSD Starter Template
 
-## Getting Started
+This is a simple starter template for quickly bootstrapping a modern **Next.js** application using the **App Router** and **Feature-Sliced Design (FSD)** architecture.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📦 Tech Stack
+
+- ✅ **Next.js** with `app/` router
+- ✅ **TypeScript**
+- ✅ **ESLint** — for code linting
+- ✅ **Prettier** — for formatting
+- ✅ **Stylelint** — for style checking
+- ✅ **Feature-Sliced Design (FSD)** — for scalable modular architecture
+
+---
+
+## 📁 Project Structure
+
+```
+├── app/ # App Router entry point (layouts, pages, etc.)
+├── pages/ # ⚠️ Must exist but stay empty (see note below)
+├── src/
+│ ├── entities/ # Business entities
+│ ├── features/ # Use-case specific features
+│ ├── shared/ # Shared UI, libs, config
+│ ├── widgets/ # Composite UI parts (built from features/entities)
+│ └── pages/ # FSD-level pages (not Next.js routes!)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚠️ `pages/` Directory — Do Not Remove
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The `pages/` directory **must exist**, or some tools and environments may break (especially with FSD tooling).  
+However, since this project uses the App Router (`app/`), the `pages/` folder **must remain empty**.
 
-## Learn More
+📄 See [`pages/README.md`](./pages/README.md) for more details.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ Linting & Formatting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint        # ESLint
+npm run lint:css    # Stylelint
+```
+
+---
+
+## 🧩 Feature-Sliced Design
+
+This project follows [Feature-Sliced Design](https://feature-sliced.github.io/documentation/) principles for modular, scalable architecture.

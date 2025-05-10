@@ -1,6 +1,6 @@
 {
-  "name": "experiments",
-  "version": "0.1.0",
+  "name": "next-fsd-template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -25,7 +25,6 @@
     "eslint-config-prettier": "^10.1.5",
     "prettier": "^3.5.3",
     "stylelint": "16.19.1",
-    "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard": "38.0.0",
     "stylelint-prettier": "^2.0.0",
     "typescript": "^5"

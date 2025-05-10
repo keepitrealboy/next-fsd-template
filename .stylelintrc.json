@@ -1,7 +1,6 @@
 {
   "extends": [
-    "stylelint-config-standard",
-    "stylelint-prettier/recommended"
+    "stylelint-config-standard"
   ],
   "rules": {
     "prettier/prettier": true
