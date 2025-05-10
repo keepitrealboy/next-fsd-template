@@ -28,5 +28,8 @@
     "stylelint-config-standard": "38.0.0",
     "stylelint-prettier": "^2.0.0",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
   }
 }
