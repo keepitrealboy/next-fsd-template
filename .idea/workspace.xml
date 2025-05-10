@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad42d55c-ca40-4a80-b29c-9a798d4aae22" name="Changes" comment="stylelint, homepage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="ad42d55c-ca40-4a80-b29c-9a798d4aae22" name="Changes" comment="eslint,prettier" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +31,7 @@
     "git-widget-placeholder": "master",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/home/vitaliy/dev/pet/next-fsd-template/.stylelintrc",
+    "last_opened_file_path": "/home/vitaliy/dev/pet/next-fsd-template",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -54,11 +49,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/widgets" />
       <recent name="$PROJECT_DIR$/src/shared" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/features" />
-      <recent name="$PROJECT_DIR$/src/entities" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -94,7 +89,7 @@
       <workItem from="1746901090017" duration="72000" />
       <workItem from="1746901227016" duration="5000" />
       <workItem from="1746904339735" duration="2038000" />
-      <workItem from="1746918863049" duration="38000" />
+      <workItem from="1746918863049" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -152,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746906370284</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="eslint,prettier">
+      <option name="closed" value="true" />
+      <created>1746918928023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746918928023</updated>
+    </task>
+    <task id="LOCAL-00009" summary="eslint,prettier">
+      <option name="closed" value="true" />
+      <created>1746918933116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746918933116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +174,7 @@
     <MESSAGE value="docs" />
     <MESSAGE value="engine" />
     <MESSAGE value="stylelint, homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylelint, homepage" />
+    <MESSAGE value="eslint,prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="eslint,prettier" />
   </component>
 </project>
